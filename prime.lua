@@ -36,7 +36,7 @@ local main = function ()
   
   local index = {0,1,50,999,9999}
 
-  for i = 1,#values do
+  for i = 1,#index do
      print(primes(index[i]))
   end
 
